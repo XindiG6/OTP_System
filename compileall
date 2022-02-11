@@ -1,0 +1,13 @@
+#!/bin/bash
+
+gcc -o keygen keygen.c -g -Wall
+
+gcc -o otp_enc otp_enc.c -g -Wall
+
+gcc -o otp_enc_d otp_enc_d.c -g -Wall
+
+gcc -o otp_dec otp_dec.c -g -Wall
+
+gcc -o otp_dec_d otp_dec_d.c -g -Wall
+
+#export PATH=$PATH:./
